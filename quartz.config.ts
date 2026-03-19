@@ -4,19 +4,6 @@ import * as Plugin from "./quartz/plugins"
 /**
  * Quartz 4 Configuration
  *npx quartz sync
- amarillo #f5b723
- rgba(245, 183, 35)
- #807ddd
- rgba(128, 125, 221)
- - `light`: page background
-    - `lightgray`: borders
-    - `gray`: graph links, heavier borders
-    - `darkgray`: body text
-    - `dark`: header text and icons
-    - `secondary`: link colour, current [[graph view|graph]] node
-    - `tertiary`: hover states and visited [[graph view|graph]] nodes
-    - `highlight`: internal link background, highlighted text, [[syntax highlighting|highlighted lines of code]]
-    - `textHighlight`: markdown highlighted text background
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
 const config: QuartzConfig = {
@@ -29,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "www.animacioenlluita.com",
+    baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -48,19 +35,19 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#f5b723",
+          secondary: "#284b63",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#1d1c2c",
-          lightgray: "#cea649",
-          gray: "#807ddd",
-          darkgray: "#c0bffa",
-          dark: "#f5b723",
-          secondary: "#807ddd",
-          tertiary: "#f5b723",
+          light: "#161618",
+          lightgray: "#393639",
+          gray: "#646464",
+          darkgray: "#d4d4d4",
+          dark: "#ebebec",
+          secondary: "#7b97aa",
+          tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#b3aa0288",
         },
