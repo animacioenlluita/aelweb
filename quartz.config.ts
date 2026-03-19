@@ -8,6 +8,15 @@ import * as Plugin from "./quartz/plugins"
  rgba(245, 183, 35)
  #807ddd
  rgba(128, 125, 221)
+ - `light`: page background
+    - `lightgray`: borders
+    - `gray`: graph links, heavier borders
+    - `darkgray`: body text
+    - `dark`: header text and icons
+    - `secondary`: link colour, current [[graph view|graph]] node
+    - `tertiary`: hover states and visited [[graph view|graph]] nodes
+    - `highlight`: internal link background, highlighted text, [[syntax highlighting|highlighted lines of code]]
+    - `textHighlight`: markdown highlighted text background
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
 const config: QuartzConfig = {
@@ -28,7 +37,12 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
       	title:"Unica One",
-        header: "Unica One",
+        typography: {
+        header: {
+         name: "Schibsted Grotesk",
+         weights: [400, 700],
+         includeItalic: true,
+         },
         body: "IBM Plex Mono",
         code: "IBM Plex Mono",
       },
