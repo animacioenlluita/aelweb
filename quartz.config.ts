@@ -37,12 +37,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
       	title:"Unica One",
-        typography: {
-        header: {
-         name: "Schibsted Grotesk",
-         weights: [400, 700],
-         includeItalic: true,
-         },
+        header: "Unica One",
         body: "IBM Plex Mono",
         code: "IBM Plex Mono",
       },
