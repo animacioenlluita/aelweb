@@ -1,10 +1,8 @@
 ---
-title: ANIMACIÓ EN LLUITA!
+title: Manifiesto
 draft: false
 tags:
 ---
-[[Estatutos]]
-[[Contacto]]
 ### QUI SOM?
 Som treballadores i treballadors del sector de l’animació preocupats per l’estat de la indústria i farts de la precarietat estructural que defineix el sector, que ens espenta a acceptar contínuament condicions laborals que ens esgoten, invisibilitzen i desvaloritzen.
 
